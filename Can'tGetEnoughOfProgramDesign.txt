@@ -1,0 +1,62 @@
+Every day, a researcher receives 15 measurements. 
+He needs a program written that will accept each measurement and convert it to its metric equivalent. 
+The result shall display on the monitor. 
+After all 15 measurements are entered, the words "All measurements processed" shall be displayed on the screen.
+
+ALGORITHM : Accept each measurement and convert it to its metric equivalent only 15 measurements. 
+            After 15, display "All measurements processed" 
+	
+	===================================
+	INPUT : measurement
+
+	PROCESSING STEPS : Change to metric equivalent
+
+	OUTPUTS : metricMeasurement
+
+	=================================
+	1. DOWHILE   PSEUDOCODE :    Initialize measurement to zero
+								 Initialize numOfMe to zero
+								 Initialize metricMeasurement to zero
+								 
+								 
+								 Prompt user input a measurement 
+								 Get a measurement
+								 DoWhile numOfMe is less than 15
+								 Convert to metricMeasurement
+								 Display metricMeasurement
+								 increase one to numOfMe
+								 EndDo
+								 
+								 Display "All measurements processed"
+						 
+	2. REPEAT...UNTIL  PSEUDOCODE :  Initialize measurement to zero
+									 Initialize numOfMe to zero
+									 Initialize metricMeasurement to zero
+									 
+									 
+									 REPEAT 
+									 Prompt user input a measurement 
+									 Get a measurement
+									 Convert to metricMeasurement
+									 Display metricMeasurement
+									 increase one to numOfMe
+									 UNTIL numOfMe is 15
+									 
+									 Display "All measurements processed"
+						 
+						 
+	3. Counted repetition  PSEUDOCODE :  Initialize measurement to zero
+										 Initialize numOfMe to zero
+										 Initialize metricMeasurement to zero
+							 
+							 
+							 DO Initialize loop-index i to zero 
+							    Increments the loop-index by 1 for each pass through the loop-index
+								Prompt user input a measurement 
+							    Get a measurement
+							    Convert to metricMeasurement
+							    Display metricMeasurement
+								Tests the loop-index value is greater than 15
+								ENDDO
+						
+							 Display "All measurements processed"
